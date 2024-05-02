@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Resume</title>
+   <meta name="description" content="This is an example of a meta description. This will often show up in search results so it is important to write a high quality description for each page of a website">
+ 	<meta charset="utf-8">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 	<link rel="stylesheet" href="style.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+ </head>
+ <body>
+    <header> 
+      <img src="images/logo.png" alt="logo" height="230" width="751" class="img-fluid logo">
+    </header>
+    <nav>
+      <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="resume.html">Resume</a></li>
+         <li><a href="game.html">Game</a></li>
+         <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <div id="home-hero">
+       <h1>Welcome to my portfolio</h1>
+    </div>
+    <main>
+        <h2>About Me</h2>
+        <img src="images/green-code.jpg" height="300" width="300" alt="green text on a monitor" class="float-right">
+        <p>
+            As a dedicated Computer Science student with a strong passion for problem-solving and coding, I believe I can be a reliable and dedicated employee
+
+            During my studies, I've gained a strong foundation in computer programming languages and concepts, and I've consistently worked hard to deepen my expertise in this field. I take pride in my ability to grasp complex concepts quickly and apply them to real-world scenarios.
+
+            
+
+            My interest in computer programming is not merely limited to my studies. I am always curious about the latest trends and advancements in the field, and I regularly take part in online courses and workshops to stay updated. I am confident that this passion and enthusiasm will translate into my work at your company.
+
+            Best Regards,
+
+            Giovanni</p>
+
+        <ul>
+         <li>Web Fundamentals, where I learned HTML and CSS</li>
+         <li>computer networking</li>
+         <li>Computer Science and Information Systems</li>
+        </ul>
+        <p>Family is a significant part of my life, and the values I've learned from them, such as dedication, perseverance, and the importance of honest communication, are reflected in my professional work. I understand the value of teamwork, and I am always ready to help my colleagues and learn from them.
+        </p> 
+        <div class="container-fluid">
+         <div class="row">
+            <div class="col-sm-4">
+               <i class="fa fa-pagelines" aria-hidden="true"></i>
+               <a href="resume.html"><h3>Resume</h3></a>
+            </div>
+            <div class="col-sm-4">
+               <i class="fa fa-gavel" aria-hidden="true"></i>
+               <a href="game.html"><h3>Game</h3></a>
+            </div>
+            <div class="col-sm-4">
+               <i class="fa fa-picture-o" aria-hidden="true"></i>
+               <a href="gallery.html"><h3>Gallery</h3></a>
+            </div>
+         </div>
+         <h2>Me with family</h2>
+         <div class="row">
+            <div class="col-sm-12">
+               <div class="gallery">
+                <div class="preview">
+                    <img id="preview" src="images/Me.jpg" style="display:block;margin:0 auto;" alt=""  height="600" width="800"/>
+                </div>
+                <div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+                    <img onclick="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="images/Me-and-E-onarock.jpg" alt="animal photography website" />
+                    <img onclick="document.getElementById('preview').src=document.getElementById('img2').src" id="img2" src="images/Me-and-E1.jpg" alt="guitar store website" />
+                    <img onclick="document.getElementById('preview').src=document.getElementById('img4').src" id="img4" src="images/Me.jpg" alt="guitar store website" />
+                </div>
+             </div>
+            </div>
+         </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer1000">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-sm-6">
+               <h2>Web Design Experience</h2>
+               <p>This is a project website I created as part of a web design class I took at Saint Paul College</p>
+            </div>
+            <div class="col-sm-6">
+               <h2>Follow me</h2>        
+               <a href="mailto:admin@websitedeluxe.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+               <br>             
+               <a href="https://www.linkedin.com/in/giovanni-ortega-81a0b52b6/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+         </div>
+      </div>
+      </div>
+    </footer>
+<!--jQuery, Popper, and Bootstrap Javascript files-->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+ </body>
+</html>
